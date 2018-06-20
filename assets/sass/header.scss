@@ -1,0 +1,48 @@
+
+html,
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+
+    header{
+        min-height: 65px;
+        padding: 10px 0;
+        background: #FFFFFF;
+        box-shadow: 0 8px 10px -2px #A9A9A9;
+        margin-bottom: 10px;
+        .logo{
+          line-height: 40px;
+          font-size: 25px;
+          cursor: pointer;
+          @include color(color);
+        }
+        .link{
+            display: inline-flex;
+             margin: 2% 4.4%;
+             color: grey;
+           
+           
+        }
+       
+        .circle{
+            border-radius: 50%;
+            padding: 8px 8.5px;
+            cursor: pointer;
+            background: white;
+            box-shadow: 0px 0px 10px 5px #E9E9E9;
+        }
+        .sing-in{
+            border-radius: 15px;
+            cursor: pointer;
+            padding: 3px 30px;
+            background: white;
+            margin-top: 10px;
+            box-shadow: 0px 0px 10px 5px #E9E9E9;
+            
+        }
+      
+    }
+}

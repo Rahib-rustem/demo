@@ -1,0 +1,173 @@
+
+
+#main{
+    .section1{
+        background: #F2F2F2;
+        .content{
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            padding-top: 7%;
+            .box{
+                 max-width: 400px;
+                margin: 0 auto;
+                .color{
+                    @include color(color);
+                    font-weight: 600;
+                }
+                .input{
+                    width: 76%;
+                    height: 33px;
+                    border-radius: 15px;
+                    border: none;
+                    box-shadow: 0px 0px 10px 5px lightgrey;
+                    padding-left: 10px;
+                    outline: none;
+                }
+                .button{
+                    outline: none;
+                    margin: 3% 0;
+                    padding: 5px 15px;
+                    border-radius: 15px;
+                    border: none;
+                    background: white;
+                    box-shadow: 0px 0px 10px 5px lightgrey;
+                    position: relative;
+                    left: -30px;
+                    cursor: pointer;
+                    @include color(color);
+                    font-weight: 600;
+                }
+            }
+        }
+    } // section1 >>>>>
+  
+
+    .section2{
+        padding-top: 10%;
+    
+        .content{
+            .box{
+                text-align: center;
+                max-width: 400px;
+               margin: 0 auto;
+               
+               
+           }
+                                //600
+           .slider{
+               margin-top: 60px;
+               @media only screen and (max-width: 600px) {
+                .slick-prev{
+                    left: 0.5%;
+                    z-index: 999;
+                }
+               
+            }
+              
+               .slide{
+                   margin: 0 8px;
+                   border: 2px solid lightgrey;
+                   border-radius: 7px;
+                   cursor: pointer;
+                   .img-content{
+                       img{
+                           width: 100%;
+                       }
+                   }
+                   .info{
+                       padding: 15px 15px;
+                       .checked{
+                        color: orange;
+                        font-size: 12px;
+                     
+                       }
+                       
+                     
+
+
+                       %flex-display { // users raitings 
+                        display: flex;
+                    }
+                    .star-rating {
+                        @extend %flex-display;
+                        align-items: center;
+                        font-size: 15px;
+                        justify-content: flex-start;
+                       
+                    }
+                    .back-stars {
+                        @extend %flex-display;
+                        color: lightgrey;
+                        position: relative;
+                        text-shadow: 1px 1px 3px #843a3a;
+                    }
+                    .front-stars {
+                        @extend %flex-display;
+                        color: #FFBC0B;
+                        overflow: hidden;
+                        position: absolute;
+                      
+                        top: 0;
+                       
+                    }// users raitings 
+                     
+
+
+
+
+
+
+
+
+
+                       
+                       .level-rate{
+                           margin-left: 4px;
+                           font-size: 12px;
+                           
+                         
+                         
+                       }
+                       .text{
+                           font-size: 12px;
+                           margin-top:3%;
+                       }
+                       .user-price{
+                           margin-top: 45px;
+                           display: flex;
+                           .left{
+                               font-size: 14px;
+                               padding-right: 10px;
+                           }
+                           .right{
+                            @include color(color);
+                           }
+                       }
+                   }
+               }
+           }
+        }
+    } // section2 >>>>>>
+  
+
+
+
+
+   .section3{
+    padding-top: 10%;
+       height: 500px;
+       .content{
+        .box{
+            text-align: center;
+            max-width: 400px;
+           margin: 0 auto;
+           
+           
+       }
+       }
+   }//section3
+
+
+
+}//main
