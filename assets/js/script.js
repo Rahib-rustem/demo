@@ -29,7 +29,7 @@ $(document).ready(function() {
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 450,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
@@ -77,17 +77,20 @@ $(document).ready(function() {
           }
           
         ]
-      });
-    
-      
-      })//slider 2
-      
-
-
-
-
-      
+      }); //slider 2
     
       
 
+
+
+
+      })
+      
+
+
+
+
+      
+    
+      
       
