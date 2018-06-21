@@ -5,19 +5,19 @@ body {
   margin: 0; }
 
 #main header {
-  min-height: 65px;
+  min-height: 70px;
   padding: 10px 0;
   background: #FFFFFF;
   box-shadow: 0 8px 10px -2px #A9A9A9;
   margin-bottom: 10px; }
   #main header .logo {
-    line-height: 40px;
+    line-height: 45px;
     font-size: 25px;
     cursor: pointer;
     color: #CF4B50; }
   #main header .link {
     display: inline-flex;
-    margin: 2% 4.4%;
+    margin: 2% 1.5%;
     color: grey; }
   #main header .circle {
     border-radius: 50%;
@@ -34,15 +34,16 @@ body {
     box-shadow: 0px 0px 10px 5px #E9E9E9; }
 
 #main .section1 {
-  background: #F2F2F2; }
+  background: #F4F4F4; }
   #main .section1 .content {
     background: url("../image/bg.jpg");
     background-position: center bottom;
-    background-size: cover;
     background-size: 100%;
-    background-position: 50% 50%;
     background-repeat: no-repeat;
-    height: 640px;
+    padding: 0px;
+    margin: 0px;
+    height: 580px;
+    width: 100%;
     text-align: center;
     padding-top: 7%; }
     #main .section1 .content .box {
@@ -107,9 +108,9 @@ body {
   #main .section2 .content .slider .response:hover .hover-menu {
     display: block;
     -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 0.7s;
+    -webkit-animation-duration: 0.8s;
     animation-name: fadeIn;
-    animation-duration: 0.5s; }
+    animation-duration: 00.8s; }
   #main .section2 .content .slider .response:hover .slide {
     display: none; }
 @keyframes fadeIn {
@@ -127,7 +128,7 @@ body {
     opacity: 1; } }
   #main .section2 .content .slider .response .slide {
     -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
     margin: 0 8px;
     border: 2px solid lightgrey;
     border-radius: 7px;

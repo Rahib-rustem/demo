@@ -2,21 +2,18 @@
 
 #main{
     .section1{
-        background: #F2F2F2;
-       
+            background: #F4F4F4;
+
         .content{
             background: url('../image/bg.jpg');
             background-position: center bottom; 
-            background-size:  cover;
-            background-size: 100%;
-            background-position: 50% 50%;
+            background-size:  100%;
             background-repeat: no-repeat;
+            padding: 0px;
+            margin: 0px;
 
-
-
-
-           
-            height: 640px;
+            height: 580px;
+            width: 100%;
             text-align: center;
             padding-top: 7%;
             .box{
@@ -118,9 +115,9 @@
                     .hover-menu{
                         display: block;
                         -webkit-animation-name: fadeIn;
-                        -webkit-animation-duration: 0.7s;
+                        -webkit-animation-duration: 0.8s;
                         animation-name: fadeIn;
-                        animation-duration: 0.5s;
+                        animation-duration: 00.8s;
                        
                     }
 
@@ -147,7 +144,7 @@
               
                .slide{
                         -webkit-animation-name: fadeIn;
-                        -webkit-animation-duration: 1s;
+                        -webkit-animation-duration: 0.5s;
                        
                       
                    margin: 0 8px;
