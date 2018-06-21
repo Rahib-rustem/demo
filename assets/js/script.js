@@ -50,7 +50,7 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         autoplay:true,
-        autoplaySpeed:1200,
+        autoplaySpeed:1400,
         responsive: [
           {
             breakpoint: 1200,
@@ -79,8 +79,7 @@ $(document).ready(function() {
         ]
       }); //slider 2
     
-      
-
+    
 
 
 
