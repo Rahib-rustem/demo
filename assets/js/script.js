@@ -5,12 +5,14 @@ $(document).ready(function() {
 
     $(".regular").slick({
         dots: false,
-        infinite: true,
+        infinite: false,
         slidesToShow: 5,
         slidesToScroll: 5,
         arrows: true,
-        speed: 800,
+        speed: 600,
         autoplay:false,
+       
+        
         responsive: [
           {
             breakpoint: 1200,
@@ -48,6 +50,8 @@ $(document).ready(function() {
     
       
       })//slider 1 
+
+
 
 
       $(".regular2").slick({
@@ -148,8 +152,6 @@ $(document).ready(function() {
 
 
         
-
-
 
 
 

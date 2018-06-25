@@ -100,13 +100,18 @@
                     
                 }
             }
+                
 
+
+            .slick-disabled {
+                display: none!important; 
+                pointer-events:none;
+              }
             .slick-prev::before{
-                content: '←';
                 color: #00576b;
+              
             }
             .slick-next::before{
-                content: '→';
                 color: #00576b;
             }
 
@@ -152,7 +157,7 @@
                        }
                    }
                    .info{
-                       padding: 15px 15px;
+                       padding: 17px 15px;
                       
                        
                        %flex-display { // users raitings 
@@ -163,7 +168,7 @@
                         align-items: center;
                         font-size: 15px;
                         justify-content: flex-start;
-                       
+                       margin-top: 5px;
                     }
                     .back-stars {
                         @extend %flex-display;
@@ -193,23 +198,19 @@
                        }
                        .text{
                            font-size: 12px;
-                           margin-top:7%;
+                           margin-top:10%;
                        }
                        .user-price{
                            margin-top: 45px;
-                            display: flex;
-                          
-                           .left{
+                          width: 100%;
+                          text-align: right;
+                           .old-cost{
                                font-size: 14px;
-                               padding-right: 10px;
-                               width: 50%;
-                               font-size: 16px;
-                               font-weight: 600;
+                                font-weight: 600;
+                                text-align: right;
                            }
-                           .right{
+                           .current-cost{
                             @include color(color);
-                            width: 50%;
-                            text-align: right;
                             font-size: 20px;
                             font-weight: 700;
                                 
@@ -230,7 +231,7 @@
                     left: 5px;
                     position: absolute;
                     width: 95%;
-                    height: 330px;
+                    height: 100%;
                     background: #FFFFFF;
                     z-index: 9999;
                     border-radius: 8px;

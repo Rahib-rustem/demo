@@ -1,45 +1,67 @@
 
 
 footer{
-    box-shadow: 0 -8px 6px -4px lightgrey;
-    min-height: 65px;
-   
     .content{
-        color: #A3A3A3;
-      .reserved{
-        line-height: 55px;
-       
-      }
-        .lists{
-         
-          li{
-              margin: 1% 5%;
-              border-left: 1px solid;
-              padding-left: 9.5px;
-             
-          }
-        }
+      padding: 8% 0;
+     
+      background: #F8F3F0;
+       .footer-items{
         
-        .sosials{
-            margin-top: 3%;
-            display: flex;
-            justify-content: flex-end;
-            margin-right: 3%;
-            li{
-              margin: 0 2%;
-              text-align: center;
-            
-              .sosial{
-                border: 1px solid;
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                line-height: 28px;
-                background: grey;
-                color: white;
-                cursor: pointer;
-              }
-            }
-        }
+         .title{
+           margin-bottom: 13px;
+         }
+        
+         a{
+           color: #322F33;
+         }
+       }
+       .right-items{
+         padding-left: 10%;
+
+         .sosials{
+           display: inline-flex;
+           .sosial{
+             margin-right: 4px;
+             width: 33px;
+             height: 33px;
+             border-radius: 50%;
+             text-align: center;
+             line-height: 33px;
+             color: white;
+             cursor: pointer; 
+           }
+           .facebook{ background: #3B5998}
+           .twitter{background: #1DA1F2}
+           .pinterest{background: #BC1718}
+           .instagram{background: #D93175}
+
+           
+         }
+       }
+       @media only screen and (max-width: 767px) {
+          .footer-items,
+          .right-items,
+          .powered{
+            text-align: center;
+          }
+          
+
     }
+      .powered{
+        width: 100%;
+          margin-top: 5%;
+          .site-name{
+            color: #FF7F45;
+            margin-right: 10px;
+            cursor: pointer;
+          }
+          .start-time{
+            font-size: 10px;
+          }
+      }
+        
+        
+        
+    }
+    // content
 }
